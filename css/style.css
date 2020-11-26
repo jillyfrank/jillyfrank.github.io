@@ -38,6 +38,19 @@ body {
     
 }
 
+.dropdown-item {
+    color: rgba(147, 161, 161, 1);
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    /*background-color: rgba(147, 161, 161, 0.1);*/
+}
+
+.contour:hover {
+    color: rgba(147, 161, 161, 1);
+}
+
 p {
     font-size: 12pt;
 }
@@ -121,13 +134,4 @@ img.index {
 .carousel-caption p {
     font-size: 10pt;
     color: rgba(147, 161, 161, 1) !important;
-}
-
-.dropdown-item {
-    color: rgba(147, 161, 161, 1);
-}
-
-.dropdown-item:hover {
-    background-color: white;
-    /*background-color: rgba(147, 161, 161, 0.1);*/
 }
