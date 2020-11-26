@@ -15,39 +15,46 @@
 <body>
 
     <div class="container p-custom">
-        <nav class="navbar navbar-expand-md">
-            <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
-                <!-- Brand -->
-                <a class="navbar-brand" href="index.html">Jilly Frank
-                    <!--<br class="subtitle">Printmaker</br>--></a>
+        <div class="row">
+            <div class="col-7">
+                <nav class="navbar navbar-expand">
+                    <!-- Brand -->
+                    <a class="navbar-brand" href="index.html">Jilly Frank
+                        <!--<br class="subtitle">Printmaker</br>--></a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </nav>
             </div>
-            <!-- Links -->
-            <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
-                <ul class="navbar-nav ml-auto">
-                    <!-- Portfolio Dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                            Portfolio
-                        </a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="prints.html">Prints</a>
-                            <a class="dropdown-item contour" href="#">Contour Drawings (coming soon)</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="about.html">Biography</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
+            <div class="col-5">
+                <nav class="navbar navbar-expand">
+                    <ul class="navbar-nav">
+                        <!-- Portfolio Dropdown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                                Portfolio
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Prints</a>
+                                <a class="dropdown-item contour" href="#">Contour Drawings (coming soon)</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Biography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </nav>
-        <div><img src="https://jillyfrank.com/images/totnessharphamweb.jpg" class="mx-auto d-block img-fluid index"></div>
-        <div class="footer text-center">
-            <p class="footer">All work on this website &#169 Jilly Frank. 2020. All rights reserved.</p>
+            <img src="/images/totnessharphamweb.jpg" class="mx-auto d-block img-fluid">
+            <div class="footer text-center">
+                <p class="footer">All work on this website &#169 Jilly Frank. 2020. All rights reserved.</p>
+            </div>
         </div>
     </div>
+
 </body>
 
 </html>
