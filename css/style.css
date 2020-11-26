@@ -30,6 +30,7 @@ body {
 .navbar-brand {
     font-weight: bold;
     font-size: 18pt;
+    letter-spacing: 0.5pt;
     color: rgba(7, 54, 66, 1) !important;
 }
 
@@ -80,4 +81,53 @@ a.current {
 
 img.index {
     max-width: 60%;
+}
+
+.carousel-control-next-icon:after
+{
+    content: '>';
+    font-size: 10pt;
+    color: rgba(147, 161, 161, 1);
+    left: -60px !important;
+    bottom: 60px !important;
+    position: absolute !important;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 10pt;
+  color: rgba(147, 161, 161, 1);
+  right: -450px !important;
+  bottom: 60px !important;
+  position:absolute !important;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 10pt;
+    color: rgba(147, 161, 161, 1);
+    right: -450px !important;
+    bottom: 60px !important;
+    position:absolute !important;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 150px;
+    bottom: 0;
+    text-align: left;
+}
+
+.carousel-caption p {
+    font-size: 10pt;
+    color: rgba(147, 161, 161, 1) !important;
+}
+
+.dropdown-item {
+    color: rgba(147, 161, 161, 1);
+}
+
+.dropdown-item:hover {
+    background-color: white;
+    /*background-color: rgba(147, 161, 161, 0.1);*/
 }
