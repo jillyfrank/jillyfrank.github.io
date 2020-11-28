@@ -74,9 +74,16 @@ body {
     outline: none !important;
 }
 
+.dropdown-toggle {
+    outline: none !important;
+    box-shadow: unset !important;
+    border: none !important;
+}
+
 .dropdown-toggle:focus {
     outline: none !important;
     box-shadow: unset !important;
+    border: none !important;
 }
 
 .contour:hover {
