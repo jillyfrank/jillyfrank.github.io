@@ -82,15 +82,16 @@ a {
     color: rgba(147, 161, 161, 1);
 }
 
+/* visited links */
+a:visited {
+    color: rgba(147, 161, 161, 1);
+}
+
 /* mouse over links */
 a:hover {
     color: rgba(7, 54, 66, 1);
 }
 
-/* selected links */
-a.current {
-    color: rgba(7, 54, 66, 1);
-}
 /*
 .p-custom {
     padding-top: 5rem !important;
@@ -116,53 +117,49 @@ img.index {
     padding-right: 0.5rem;
     padding-left: 0.5rem;
 }
-/*
-.carousel-control-prev {
-    position: relative;
-    left: 53vw;
-    right: 0;
-    top: -6.42vw;
-    background-image: none;
-}
 
 .carousel-control-next {
-    position: relative;
-    left: 56vw;
-    right: 0;
-    top: -8vw;
-    background-image: none;
-}
-
-.carousel > .carousel-control-prev-icon,
-.carousel > .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    background-size: 100%, 100%;
-    background-image: none;
-    position: relative;
-    left: 0;
-    bottom: -24vw;
-    text-align: left;
+    top: 90%;
+    right: 0%;
+    width: 4%;
+    height: 3%;
+    color: rgba(147, 161, 161, 1);
+    opacity: 1;
 }
 
 .carousel-control-next-icon:after
 {
+    background-size: 100%, 100%;
+    background-image: none;
+    position: relative;
     content: '>';
     font-size: 1rem;
-    color: red;
+    color: rgba(147, 161, 161, 1);
+    opacity: 1;
+}
+
+.carousel-control-prev {
+    top: 90%;
+    left: 90%;
+    width: 4%;
+    height: 3%;
+    color: rgba(147, 161, 161, 1);
+    opacity: 1;
 }
 
 .carousel-control-prev-icon:after {
+    background-size: 100%, 100%;
+    background-image: none;
+    position: relative;
     content: '<';
     font-size: 1rem;
-    color: red;
+    color: rgba(147, 161, 161, 1);
 }
-*/
+
 .carousel-item > img {
     height: 45vw;
     width: 100vw;
 }
-
 
 .carousel-item > .carousel-caption {
     position: relative;
