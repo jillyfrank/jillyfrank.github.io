@@ -65,6 +65,20 @@ body {
     /*background-color: rgba(147, 161, 161, 0.1);*/
 }
 
+.dropdown-menu:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.navbar-toggle {
+    outline: none !important;
+}
+
+.dropdown-toggle:focus {
+    outline: none !important;
+    box-shadow: unset !important;
+}
+
 .contour:hover {
     color: rgba(147, 161, 161, 1);
 }
@@ -178,6 +192,3 @@ img.index {
     margin: 0 !important;
  }
 
-.dropdown .dropdown-menu:focus {
-    outline: none;
-}
