@@ -178,7 +178,6 @@ img.index {
     margin: 0 !important;
  }
 
-.btn:focus, .btn:active {
-    outline: none !important;
-    box-shadow: none;
- }
+.dropdown .dropdown-menu:focus {
+    outline: none;
+}
